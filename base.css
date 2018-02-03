@@ -16,7 +16,7 @@ nav { font-family: 'League Gothic Italic', Helvetica, sans-serif; }
 
 .hide { display: none; }
 h1 { font-family: 'League Gothic Italic', Helvetica, sans-serif; }
-.type { z-index: -1; width: 100%; position: absolute; bottom: 0; right: -3vw; }
+.type { z-index: -1; width: auto; height: 80vh; position: absolute; bottom: 0; right: -3vw; }
 .text { background-color:  #01011c; z-index: 99; padding-bottom: 5vh; }
 
 @media screen and (min-width: 414px ) {
