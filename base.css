@@ -1,3 +1,5 @@
+@import url("https://use.typekit.net/eqx5afj.css");
+
 body { height: 100vh; background-color: #01011c; color: #f9f9f9; }
 a { color: #f9f9f9; }
 a:hover { color: #e5004c; text-decoration: none; }
@@ -6,7 +8,11 @@ li a:hover { text-decoration: none; color: #f9f9f9; }
 a img { height: 50px; }
 .nav-item { font-size: 3em; }
 .hide { display: none; }
+#text { z-index: 99; padding: 15%; }
+#gif { z-index: -1; }
 
+.nav-item { font: "league-gothic"; }
+.display-1 { font: "league-gothic"; }
 @media screen and (min-width: 414px ) {
   .text { padding: 15%; }
 }
